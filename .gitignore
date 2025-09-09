@@ -1,0 +1,7 @@
+*.o
+*.out
+*.exe
+shot
+wenwang
+shc
+.DS_Store
