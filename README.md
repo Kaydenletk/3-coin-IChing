@@ -29,21 +29,17 @@ Copy code
 
 ### 1) Clone
 
-```bash
-git clone https://github.com/<your-username>/I-ching-mini.git
+```bash git clone https://github.com/<your-username>/I-ching-mini.git
 cd I-ching-mini
 2) Build
 macOS
 
-bash
-Copy code
-# clang is available with Xcode Command Line Tools
+
+bash # clang is available with Xcode Command Line Tools
 cc -O2 -std=c11 iching.c -o iching
 Ubuntu/Debian
 
-bash
-Copy code
-sudo apt update && sudo apt install -y build-essential
+bash sudo apt update && sudo apt install -y build-essential
 gcc -O2 -std=c11 iching.c -o iching
 Windows (MSYS2 / MinGW)
 
